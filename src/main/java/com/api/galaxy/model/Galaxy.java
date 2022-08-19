@@ -13,7 +13,7 @@ public class Galaxy {
 	private Long id;
 	private String nome;
 	private String urlImg;
-	private String magnitude;
+	private Double magnitude;
 	private String declinacao;
 	private String distancia;
 	private String desvioVermelho;
@@ -25,7 +25,29 @@ public class Galaxy {
 	private Double massa;
 	private Integer estrelas;
 	private String satelitesNaturais;
-	private Double numeroEstrelas;
+	private String coordenadas;
+
+	public Galaxy(Long id, String nome, String urlImg, Double magnitude, String declinacao, String distancia,
+			String desvioVermelho, String descricao, Double rotacao, Double dimensoes, Double raio,
+			Integer idadeEstimada, Double massa, Integer estrelas, String satelitesNaturais, String coordenadas) {
+		super();
+		this.id = id;
+		this.nome = nome;
+		this.urlImg = urlImg;
+		this.magnitude = magnitude;
+		this.declinacao = declinacao;
+		this.distancia = distancia;
+		this.desvioVermelho = desvioVermelho;
+		this.descricao = descricao;
+		this.rotacao = rotacao;
+		this.dimensoes = dimensoes;
+		this.raio = raio;
+		IdadeEstimada = idadeEstimada;
+		this.massa = massa;
+		this.estrelas = estrelas;
+		this.satelitesNaturais = satelitesNaturais;
+		this.coordenadas = coordenadas;
+	}
 
 	public Galaxy() {
 		// TODO Auto-generated constructor stub
@@ -55,11 +77,11 @@ public class Galaxy {
 		this.urlImg = urlImg;
 	}
 
-	public String getMagnitude() {
+	public Double getMagnitude() {
 		return magnitude;
 	}
 
-	public void setMagnitude(String magnitude) {
+	public void setMagnitude(Double magnitude) {
 		this.magnitude = magnitude;
 	}
 
@@ -151,12 +173,12 @@ public class Galaxy {
 		this.satelitesNaturais = satelitesNaturais;
 	}
 
-	public Double getNumeroEstrelas() {
-		return numeroEstrelas;
+	public String getCoordenadas() {
+		return coordenadas;
 	}
 
-	public void setNumeroEstrelas(Double numeroEstrelas) {
-		this.numeroEstrelas = numeroEstrelas;
+	public void setCoordenadas(String coordenadas) {
+		this.coordenadas = coordenadas;
 	}
 
 }
