@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.api.galaxy.dto.GalaxyDTO;
+import com.api.galaxy.exceptions.ExceptionsReturnMessageError;
 import com.api.galaxy.model.Galaxy;
 import com.api.galaxy.repository.GalaxyRepository;
 
@@ -39,7 +40,7 @@ public class GalaxyService {
 		Galaxy dtoData = mapper.map(galaxyDto, Galaxy.class);
 		Galaxy systemFind = repository.findByNome(galaxyDto.getNome());
 		if(systemFind != null && systemFind.getId() != dtoData.getId()) {
-			throw new ExceptionInInitializerError("A Galaxya "+ systemFind.getNome()+" já esta cadastrado");
+			throw new ExceptionsReturnMessageError("A Galaxya "+ systemFind.getNome()+" já esta cadastrado");
 		}
 	}
 	
