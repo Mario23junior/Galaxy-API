@@ -50,9 +50,36 @@ public class GalaxyService {
 			return ResponseEntity.ok(mapper.map(listId.get(), GalaxyDTO.class));
 		} else {
 			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-		}
-		
+		}	
 	}
+	
+	public ResponseEntity<GalaxyDTO> dataUpdate(Long id, GalaxyDTO galaxyDto) {
+		Optional<Galaxy> galaxyData = repository.findById(id);
+		if(galaxyData.isPresent()) {
+			Galaxy data = galaxyData.get();
+			data.setId(galaxyDto.getId());
+			data.setSatelitesNaturais(galaxyDto.getSatelitesNaturais());
+			data.setMassa(galaxyDto.getMassa());
+			data.setRaio(galaxyDto.getRaio());
+			data.setRotacao(galaxyDto.getRotacao());
+			data.setUrlImg(galaxyDto.getUrlImg());
+			data.setNome(galaxyDto.getNome());
+			data.setCoordenadas(galaxyDto.getCoordenadas());
+			data.setDeclinacao(galaxyDto.getDeclinacao());
+			data.setDescricao(galaxyDto.getDescricao());
+			data.setDesvioVermelho(galaxyDto.getDesvioVermelho());
+			data.setEstrelas(galaxyDto.getEstrelas());
+			data.setIdadeEstimada(galaxyDto.getIdadeEstimada());
+			data.setMagnitude(galaxyDto.getMagnitude());
+			data.setDistancia(galaxyDto.getDistancia());
+			data.setDimensoes(galaxyDto.getDimensoes());
+			repository.save(data);
+			return ResponseEntity.ok(mapper.map(data, GalaxyDTO.class));	
+		} else {
+			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+		}
+	}
+	
 	
 	
 }

@@ -4,6 +4,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -29,5 +30,10 @@ public class ControllerGalaxy {
 	@GetMapping("{id}")
 	public ResponseEntity<GalaxyDTO> list(@PathVariable Long id) {
 		return service.listId(id);
+	}
+	
+	@PutMapping("{id}")
+	public ResponseEntity<GalaxyDTO> update(@PathVariable Long id, @RequestBody GalaxyDTO galaxyDto) {
+		return service.dataUpdate(id, galaxyDto);
 	}
 }
