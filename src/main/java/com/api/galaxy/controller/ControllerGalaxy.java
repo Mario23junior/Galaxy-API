@@ -1,6 +1,8 @@
 package com.api.galaxy.controller;
 
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,7 +12,7 @@ import com.api.galaxy.dto.GalaxyDTO;
 import com.api.galaxy.service.GalaxyService;
 
 @RestController
-@RequestMapping("/project/api/galaxy")
+@RequestMapping("/project/api/galaxy/")
 public class ControllerGalaxy {
 
 	private GalaxyService service;
@@ -22,5 +24,10 @@ public class ControllerGalaxy {
 	@PostMapping
 	public ResponseEntity<GalaxyDTO> save(@RequestBody GalaxyDTO galaxyDto) {
 		return service.save(galaxyDto);
+	}
+	
+	@GetMapping("{id}")
+	public ResponseEntity<GalaxyDTO> list(@PathVariable Long id) {
+		return service.listId(id);
 	}
 }

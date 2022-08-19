@@ -1,5 +1,7 @@
 package com.api.galaxy.service;
 
+import java.util.Optional;
+
 import org.modelmapper.ModelMapper;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -39,6 +41,16 @@ public class GalaxyService {
 		if(systemFind != null && systemFind.getId() != dtoData.getId()) {
 			throw new ExceptionInInitializerError("A Galaxya "+ systemFind.getNome()+" já esta cadastrado");
 		}
+	}
+	
+	public ResponseEntity<GalaxyDTO> listId(Long id) {
+		Optional<Galaxy> listId = repository.findById(id);
+		if(listId.isPresent()) {
+			return ResponseEntity.ok(mapper.map(listId.get(), GalaxyDTO.class));
+		} else {
+			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+		}
+		
 	}
 	
 	
