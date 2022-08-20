@@ -1,5 +1,7 @@
 package com.api.galaxy.controller;
 
+import java.util.List;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -41,6 +43,11 @@ public class ControllerGalaxy {
 	@DeleteMapping("{id}")
 	public ResponseEntity<GalaxyDTO> delete(@PathVariable Long id){
 		return service.deleteGalaxy(id);
+	}
+	
+	@GetMapping
+	public List<GalaxyDTO> listAll() {
+		return service.listAllData();
 	}
 	
 }

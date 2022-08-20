@@ -1,6 +1,8 @@
 package com.api.galaxy.service;
 
+import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.http.HttpStatus;
@@ -22,7 +24,6 @@ public class GalaxyService {
  		this.mapper = mapper;
 		this.repository = repository;
 	}
-	
 	
 	public ResponseEntity<GalaxyDTO> save(GalaxyDTO galaxyDto) {
 		ValidValueDuplicate(galaxyDto);
@@ -89,6 +90,18 @@ public class GalaxyService {
 			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
 		}	
 	}
+	
+	public List<GalaxyDTO> listAllData() {
+		List<Galaxy> list = repository.findAll();
+		try {
+			return list
+					.stream()
+					.map(listDto -> mapper.map(listDto, GalaxyDTO.class))
+					.collect(Collectors.toList());
+		} catch (ExceptionsReturnMessageError e) {
+			throw new ExceptionsReturnMessageError("Erro ao listar todas as galaxias ");
+		}
+ 	}
 	
 	
 }
