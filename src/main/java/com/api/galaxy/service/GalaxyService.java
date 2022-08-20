@@ -80,6 +80,15 @@ public class GalaxyService {
 		}
 	}
 	
+	public ResponseEntity<GalaxyDTO> deleteGalaxy(Long id) {
+		Optional<Galaxy> listId = repository.findById(id);
+		if(listId.isPresent()) {
+			repository.delete(listId.get());
+			return new ResponseEntity<>(HttpStatus.OK);
+		} else {
+			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+		}	
+	}
 	
 	
 }

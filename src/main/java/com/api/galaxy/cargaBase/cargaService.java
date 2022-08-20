@@ -1,4 +1,4 @@
-package com.api.galaxy.service;
+package com.api.galaxy.cargaBase;
 
 import java.util.Arrays;
 
