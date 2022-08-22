@@ -40,9 +40,9 @@ $ mvn install
 -------------------------------------------------------
  T E S T S
 -------------------------------------------------------
-Running com.acme.app.HelloWorldProxyTest
+Running com.api.galaxy GalaxyApplicationTests
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.357 sec
-Running com.acme.app.HelloWorldTest
+Running com.acme.app.GalaxyApplicationTests
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 
 Results :
@@ -51,11 +51,11 @@ Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
 
 [INFO]
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ app ---
-[INFO] Building jar: junit-mocha-example/target/app-0.0.1-SNAPSHOT.jar
+[INFO] Building jar: galaxy-api/target/app-0.0.1-SNAPSHOT.jar
 [INFO]
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ app ---
-[INFO] Installing junit-mocha-example/target/app-0.0.1-SNAPSHOT.jar to /Users/justin/.m2/repository/com/acme/app/0.0.1-SNAPSHOT/app-0.0.1-SNAPSHOT.jar
-[INFO] Installing junit-mocha-example/pom.xml to /Users/justin/.m2/repository/com/acme/app/0.0.1-SNAPSHOT/app-0.0.1-SNAPSHOT.pom
+[INFO] Installing com.api.galaxy/target/app-0.0.1-SNAPSHOT.jar to /Users/justin/.m2/repository/com/acme/app/0.0.1-SNAPSHOT/app-0.0.1-SNAPSHOT.jar
+[INFO] Installing com.api.galaxy/pom.xml to /Users/justin/.m2/repository/com/acme/app/0.0.1-SNAPSHOT/app-0.0.1-SNAPSHOT.pom
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
