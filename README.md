@@ -1,4 +1,36 @@
+ <div id="top"></div> 
+
+<br />
+<div align="center">
+  <a href="logo.gif">
+    <img src="logo.gif" alt="Logo" width="600" height="500" style="border-radius: 50%"/>
+  </a>
+
+  
+  <h3 align="center"> Scientific Galaxy API</h3>
+
+  <h4 align="center">
+     <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+     ·
+    <a href="">Reportar Bug</a>
+    ·
+    <a href="">Soliciatar recurso</a>
+  </p>
+</div>
+
+ <h3 align="center">
+API REST de código aberto para dados de consulta e pesquisa, as informações contida foram desenvolvidas usando como base a estruturas da <a href="https://www.nasa.gov/subject/6893/nebulae/" target="_blank">NASA</a>
+ e o laboratorio <a href="https://chandra.harvard.edu/photo/2007/orion/" target="_blank">Chandra</a> usando dados estruturais da base organizacional.
+<p align="center">
  
+<p align="center">
+  <a href=""><img src="https://github.com/Mario23junior/Galaxy-API/actions/workflows/Maven.yml/badge.svg"></a>
+<a href="https://en.wikipedia.org/wiki/Representational_state_transfer"><img src="https://img.shields.io/badge/interface%20-build-green.svg"></a>
+</p>
+
 
 ## 🔩 Instruções para uso local
 
