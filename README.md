@@ -120,7 +120,10 @@ Mencione as ferramentas que você usou para criar seu projeto
 * [Java 17](http://www.dropwizard.io/1.0.2/docs/)
 * [Spring boot](https://spring.io/projects/spring-boot)
 * [H2](https://www.h2database.com/html/main.html)
+* [Eclipse](https://www.eclipse.org/downloads/)
 * [openJDK](https://maven.apache.org/)
+* [NASA](https://solarsystem.nasa.gov/)
+
 
 ## 📄 Licença
 
