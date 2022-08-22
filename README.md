@@ -35,7 +35,7 @@ Finalmente, verifique se `mvn install` foi bem sucedido.
 
 Você deve ver uma saída como a seguinte:
 
-```
+``` Java
 $ cd galaxy
 $ mvn install
 #...
