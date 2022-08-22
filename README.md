@@ -113,8 +113,15 @@ Você deve ver uma saída como a seguinte:
 2022-08-22 06:51:11.653  INFO 18184 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
 2022-08-22 06:51:11.822  INFO 18184 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
 2022-08-22 06:51:11.835  INFO 18184 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-
 ```
-## 📄 Licença
+## 💻 Construído com 🖥️
+Mencione as ferramentas que você usou para criar seu projeto
+
+* [Java 17](http://www.dropwizard.io/1.0.2/docs/)
+* [Spring boot](https://spring.io/projects/spring-boot)
+* [H2](https://www.h2database.com/html/main.html)
+* [openJDK](https://maven.apache.org/)
+
+## 🔧 🔨 🛠 Licença ⛏ 🪚 🔩 ⚙️
 
 Este projeto está sob a licença (GNU GPLv3) - [GNU GPLv3.md](https://www.gnu.org/licenses/gpl-3.0.pt-br.html)
