@@ -27,7 +27,7 @@ API REST de código aberto para dados de consulta e pesquisa, as informações c
 <p align="center">
  
 <p align="center">
-  <a href=""><img src="https://github.com/Mario23junior/Galaxy-API/actions/workflows/Maven.yml/badge.svg"></a>
+  <a href="https://github.com/Mario23junior/Galaxy-API/runs/7950437483?check_suite_focus=true"><img src="https://github.com/Mario23junior/Galaxy-API/actions/workflows/Maven.yml/badge.svg"></a>
 <a href="https://en.wikipedia.org/wiki/Representational_state_transfer"><img src="https://img.shields.io/badge/interface%20-build-green.svg"></a>
 </p>
 
