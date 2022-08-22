@@ -16,10 +16,6 @@ Ou baixe um ZIP de main [manualmente](https://github.com/Mario23junior/Galaxy-AP
 * Tenha o google-chorme instalado
 * Tenha um iterador de APIs para testes HTTP ex: [Postman](https://www.postman.com/downloads/), [Insonia](https://insomnia.rest/download)
 
-## ☑️ Verifique a instalação
-
-Você pode verificar as compilações do projeto corretamente no seu IDE ou por linha de comando
-
 ## ⚛️ CLI
 
 Abra o terminal de comando e verifique se todos os compartimentos necessários estão em seu devido path e atualizados:
@@ -30,6 +26,9 @@ $ java -versão
 $ mvn -v
 # ^ deve ser pelo menos 3.0.0
 ```
+## ☑️ Verifique a instalação
+
+Você pode verificar as compilações do projeto corretamente no seu IDE ou por linha de comando
 
 Finalmente, verifique se `mvn install` foi bem sucedido.
 
