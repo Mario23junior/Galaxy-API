@@ -28,7 +28,7 @@ Você pode verificar as compilações do projeto corretamente no seu IDE ou por 
 
 ### CLI
 
-Abra um prompt de comando e verifique se todos os compartimentos necessários estão em seu caminho e atualizados:
+Abra o terminal de comando e verifique se todos os compartimentos necessários estão em seu devido path e atualizados:
 
 ```
 $ java -versão
