@@ -1,5 +1,5 @@
  
-## 🔩 Instruções Para uso local
+## 🔩 Instruções para uso local
 
 Clone o repositório:
 
