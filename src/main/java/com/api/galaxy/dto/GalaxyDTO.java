@@ -16,12 +16,12 @@ public class GalaxyDTO {
 	private Integer IdadeEstimada;
 	private Double massa;
 	private Integer estrelas;
-	private String satelitesNaturais;
+	private String constelacao;
 	private String coordenadas;
 
 	public GalaxyDTO(Long id, String nome, String urlImg, Double magnitude, String declinacao, String distancia,
 			String desvioVermelho, String descricao, Double rotacao, Double dimensoes, Double raio,
-			Integer idadeEstimada, Double massa, Integer estrelas, String satelitesNaturais, String coordenadas) {
+			Integer idadeEstimada, Double massa, Integer estrelas, String constelacao, String coordenadas) {
 		super();
 		this.id = id;
 		this.nome = nome;
@@ -34,10 +34,10 @@ public class GalaxyDTO {
 		this.rotacao = rotacao;
 		this.dimensoes = dimensoes;
 		this.raio = raio;
-		IdadeEstimada = idadeEstimada;
+		this.IdadeEstimada = idadeEstimada;
 		this.massa = massa;
 		this.estrelas = estrelas;
-		this.satelitesNaturais = satelitesNaturais;
+		this.constelacao = constelacao;
 		this.coordenadas = coordenadas;
 	}
 
@@ -157,12 +157,12 @@ public class GalaxyDTO {
 		this.estrelas = estrelas;
 	}
 
-	public String getSatelitesNaturais() {
-		return satelitesNaturais;
+	public String getConstelacao() {
+		return constelacao;
 	}
 
-	public void setSatelitesNaturais(String satelitesNaturais) {
-		this.satelitesNaturais = satelitesNaturais;
+	public void setConstelacao(String constelacao) {
+		this.constelacao = constelacao;
 	}
 
 	public String getCoordenadas() {

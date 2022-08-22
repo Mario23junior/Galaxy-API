@@ -59,7 +59,7 @@ public class GalaxyService {
 		if(galaxyData.isPresent()) {
 			Galaxy data = galaxyData.get();
 			data.setId(galaxyDto.getId());
-			data.setSatelitesNaturais(galaxyDto.getSatelitesNaturais());
+			data.setConstelacao(galaxyDto.getConstelacao());
 			data.setMassa(galaxyDto.getMassa());
 			data.setRaio(galaxyDto.getRaio());
 			data.setRotacao(galaxyDto.getRotacao());
