@@ -74,7 +74,7 @@ public class cargaService {
 			g3.setDescricao(
 					"A Galáxia Anã Elíptica de Sagitário situa-se a cerca de 50.000 anos-luz de nós, e a cerca de 70.000 anos-luz do centro da Via Láctea, deslocando-se ao redor da nossa galáxia num órbita polar.");
 			g3.setDesvioVermelho("140");
-			g3.setEstrelas(0);
+			g3.setEstrelas(1);
 			g3.setIdadeEstimada(70000);
 			g3.setMagnitude(4.5);
 			g3.setDistancia("80000");
@@ -171,7 +171,7 @@ public class cargaService {
 			g8.setDescricao(
 					"A galáxia Cartwheel é uma galáxia anular situada a cerca de 500 milhões de anos-luz da constelação do Escultor, no Hemisfério sul.");
 			g8.setDesvioVermelho("9050 ± 3");
-			g8.setEstrelas(0);
+			g8.setEstrelas(2);
 			g8.setIdadeEstimada(200);
 			g8.setMagnitude(1.0);
 			g8.setDistancia("500");
@@ -211,8 +211,8 @@ public class cargaService {
 			g10.setDescricao(
 					"A galáxia de Сomet está sendo rasgada em pedaços, movendo-se através de um aglomerado a velocidades superiores a 2 milhões de mph. ");
 			g10.setDesvioVermelho("0.2265");
-			g10.setEstrelas(0);
-			g10.setIdadeEstimada(0000);
+			g10.setEstrelas(2);
+			g10.setIdadeEstimada(300);
 			g10.setMagnitude(1.0);
 			g10.setDistancia("3.2");
 			g10.setDimensoes(600.000);
@@ -232,7 +232,7 @@ public class cargaService {
 					"Messier 82 é uma galáxia irregular localizada a cerca de doze milhões de anos-luz de distância na direção da constelação de Ursa Maior.");
 			g11.setDesvioVermelho("203±4");
 			g11.setEstrelas(30);
-			g11.setIdadeEstimada(0000);
+			g11.setIdadeEstimada(1323);
 			g11.setMagnitude(8.41);
 			g11.setDistancia("11.420");
 			g11.setDimensoes(11.243);
@@ -271,7 +271,7 @@ public class cargaService {
 					"A pequena constelação do norte de Triangulum abriga esta magnífica galáxia espiral frontal, M33. Seus nomes populares incluem a Galáxia Pinwheel ou apenas a Galáxia Triangulum . ");
 			g13.setDesvioVermelho("	-0,0607 ± 0,010");
 			g13.setEstrelas(40);
-			g13.setIdadeEstimada(0000);
+			g13.setIdadeEstimada(1123);
 			g13.setMagnitude(5.72);
 			g13.setDistancia("000");
 			g13.setDimensoes(70.80410700);
@@ -384,7 +384,7 @@ public class cargaService {
 			g19.setDeclinacao("-32˚ 12' 58''");
 			g19.setDescricao("O Aglomerado da Borboleta é um aglomerado aberto de estrelas na constelação de Escorpião.");
 			g19.setDesvioVermelho("");
-			g19.setEstrelas(0);
+			g19.setEstrelas(1);
 			g19.setIdadeEstimada(942);
 			g19.setMagnitude(6.4);
 			g19.setDistancia("1.600");
@@ -424,7 +424,7 @@ public class cargaService {
 					"O que mais tarde ficou conhecido como Whirlpool Galaxy foi descoberto em 13 de outubro de 1773 por Charles Messier enquanto caçava objetos que pudessem confundir os caçadores de cometas, e foi designado no catálogo de Messier como M51.");
 			g21.setDesvioVermelho("0.001544");
 			g21.setEstrelas(1);
-			g21.setIdadeEstimada(0000);
+			g21.setIdadeEstimada(122);
 			g21.setMagnitude(8.4);
 			g21.setDistancia("31");
 			g21.setDimensoes(0.0);
@@ -442,7 +442,7 @@ public class cargaService {
 			g22.setDescricao(
 					"Andrômeda I é uma galáxia anã esferoidal (dSph) a aproximadamente 2,40 milhões de anos-luz de distância na constelação de Andromeda. Andrômeda I faz parte do Grupo Local e é uma galáxia satélite da Galáxia de Andrômeda (M31).");
 			g22.setDesvioVermelho("-368 ± 11");
-			g22.setEstrelas(0);
+			g22.setEstrelas(3);
 			g22.setIdadeEstimada(10011010);
 			g22.setMagnitude(1.0);
 			g22.setDistancia("2′.5 × 2′.5");
@@ -462,7 +462,7 @@ public class cargaService {
 					"A galáxia Cata-vento do Sul (Messier 83, NGC 5236) é uma galáxia espiral barrada localizada a aproximadamente quinze milhões de anos-luz (cerca de 4,59 megaparsecs) de distância na direção da constelação de Hydra.");
 			g23.setDesvioVermelho("	513 ± 2");
 			g23.setEstrelas(200);
-			g23.setIdadeEstimada(0000);
+			g23.setIdadeEstimada(233);
 			g23.setMagnitude(7.6);
 			g23.setDistancia("14,7");
 			g23.setDimensoes(129.115);
@@ -480,7 +480,7 @@ public class cargaService {
 			g24.setDescricao(
 					"As Plêiades (Messier 45), conhecidas popularmente como sete-estrelo e sete-cabrinhas, são um grupo de estrelas na constelação do Touro. As Plêiades, também chamadas de aglomerado estelar.");
 			g24.setDesvioVermelho("");
-			g24.setEstrelas(0);
+			g24.setEstrelas(2);
 			g24.setIdadeEstimada(100);
 			g24.setMagnitude(1.6);
 			g24.setDistancia("391-456");
@@ -556,7 +556,7 @@ public class cargaService {
 			g28.setDescricao("\n"
 					+ "NGC 205 ou M110 é uma galáxia elíptica localizada a cerca de 2,9 milhões de anos-luz de distância na direção da constelação de Andrômeda.");
 			g28.setDesvioVermelho("	−0.00804±0.010");
-			g28.setEstrelas(2);
+			g28.setEstrelas(20);
 			g28.setIdadeEstimada(290);
 			g28.setMagnitude(8.5);
 			g28.setDistancia("2.674");
@@ -595,7 +595,7 @@ public class cargaService {
 					"A Via Láctea é uma galáxia espiral, da qual o Sistema Solar faz parte. Vista da Terra, aparece como uma faixa brilhante e difusa que circunda toda a esfera celeste, recortada por nuvens moleculares.");
 			g30.setDesvioVermelho("");
 			g30.setEstrelas(400);
-			g30.setIdadeEstimada(0000);
+			g30.setIdadeEstimada(5411);
 			g30.setMagnitude(1.0);
 			g30.setDistancia("000");
 			g30.setDimensoes(800.0);
