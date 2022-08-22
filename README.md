@@ -1,5 +1,5 @@
  
-## Instruções Para uso local
+## 🔩 Instruções Para uso local
 
 Clone o repositório:
 
@@ -9,18 +9,18 @@ $ git clone https://github.com/Mario23junior/Galaxy-API.git
 ```
 Ou baixe um ZIP de main [manualmente](https://github.com/Mario23junior/Galaxy-API/archive/refs/heads/main.zip) e expanda o conteúdo em algum lugar em seu sistema
 
-## Pré-requisitos
+## 📋  Pré-requisitos
 
 * Tenha um JDK Java instalado
 * Tenha o Maven instalado e disponível em seu PATH ou IDE
 * Tenha o google-chorme instalado
 * Tenha um iterador de APIs para testes HTTP ex: [Postman](https://www.postman.com/downloads/), [Insonia](https://insomnia.rest/download)
 
-## Verifique a instalação
+## ☑️ Verifique a instalação
 
 Você pode verificar as compilações do projeto corretamente no seu IDE ou por linha de comando
 
-### CLI
+## ⚛️ CLI
 
 Abra o terminal de comando e verifique se todos os compartimentos necessários estão em seu devido path e atualizados:
 
