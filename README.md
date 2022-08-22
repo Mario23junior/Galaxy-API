@@ -162,7 +162,6 @@ Mencione as ferramentas que você usou para criar seu projeto
 * [openJDK](https://maven.apache.org/)
 * [NASA](https://solarsystem.nasa.gov/)
 
-
 ## 📄 Licença
 
 Este projeto está sob a licença (GNU GPLv3) - [GNU GPLv3.md](https://www.gnu.org/licenses/gpl-3.0.pt-br.html)
