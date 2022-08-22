@@ -613,7 +613,7 @@ public class cargaService {
 			g31.setDescricao("Messier 74 é uma galáxia espiral na constelação de Pisces. Foi descoberta em setembro de 1780 por Pierre Méchain. Ele reportou sua descoberta a Charles Messier, que listou a galáxia em seu catálogo.");
 			g31.setDesvioVermelho("657");
 			g31.setEstrelas(100);
-			g31.setIdadeEstimada(0000);
+			g31.setIdadeEstimada(13121010);
 			g31.setMagnitude(10.0);
 			g31.setDistancia("000");
 			g31.setDimensoes(0.0);
