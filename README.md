@@ -100,7 +100,7 @@ Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
 ##  📚 📖 Consulte a documentação da API local
 
 ```
-http://localhost:8080/swagger-ui.html
+http://localhost:8080/swagger-ui.html#/controller-galaxy
 ```
 
 Em seguida execute o arquivo `mvnw` na raiz do projeto no IntelliJ ou eclipse que ira iniciar a execução do projeto:
