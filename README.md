@@ -64,6 +64,11 @@ Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
 [INFO] Final Memory: 20M/177M
 [INFO] ------------------------------------------------------------------------
 ```
+##  📚 📖 Consulte a documentação da API local
+
+```
+http://localhost:8080/swagger-ui.html
+```
 
 Em seguida execute o arquivo `mvnw` na raiz do projeto no IntelliJ ou eclipse que ira iniciar a execução do projeto:
 
