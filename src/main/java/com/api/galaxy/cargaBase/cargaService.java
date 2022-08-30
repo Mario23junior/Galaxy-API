@@ -45,7 +45,7 @@ public class cargaService {
 			Galaxy g2 = new Galaxy();
 			g2.setId(2l);
 			g2.setNome("Canis Major Dwarf");
-			g2.setUrlImg("https://s4.gifyu.com/images/videoplayback93018faf493ab518.gif");
+			g2.setUrlImg("https://jumk.de/astronomie/img/canis-major-dwarf.jpg");
 			g2.setConstelacao("Canis Major");
 			g2.setMassa(17.8);
 			g2.setRaio(987.890000);
