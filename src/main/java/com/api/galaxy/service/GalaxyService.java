@@ -25,6 +25,19 @@ public class GalaxyService {
 		this.repository = repository;
 	}
 	
+	public List<GalaxyDTO> listAllData() {
+		List<Galaxy> list = repository.findAll();
+		try {
+			return list
+					.stream()
+					.map(listDto -> mapper.map(listDto, GalaxyDTO.class))
+					.collect(Collectors.toList());
+		} catch (ExceptionsReturnMessageError e) {
+			throw new ExceptionsReturnMessageError("Erro ao listar todas as galaxias ");
+		}
+ 	}
+	
+	
 	public ResponseEntity<GalaxyDTO> save(GalaxyDTO galaxyDto) {
 		ValidValueDuplicate(galaxyDto);
 		Galaxy body = bodySave(mapper.map(galaxyDto, Galaxy.class));
@@ -90,18 +103,6 @@ public class GalaxyService {
 			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
 		}	
 	}
-	
-	public List<GalaxyDTO> listAllData() {
-		List<Galaxy> list = repository.findAll();
-		try {
-			return list
-					.stream()
-					.map(listDto -> mapper.map(listDto, GalaxyDTO.class))
-					.collect(Collectors.toList());
-		} catch (ExceptionsReturnMessageError e) {
-			throw new ExceptionsReturnMessageError("Erro ao listar todas as galaxias ");
-		}
- 	}
 	
 	
 }
