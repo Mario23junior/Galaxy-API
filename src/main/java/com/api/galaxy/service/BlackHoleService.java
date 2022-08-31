@@ -1,9 +1,12 @@
 package com.api.galaxy.service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.api.galaxy.dto.BlackHoleDTO;
@@ -33,6 +36,15 @@ public class BlackHoleService {
 			throw new ExceptionsReturnMessageError("Erro ao listar todas as galaxias ");
 		}
  	}
+	
+	public ResponseEntity<BlackHoleDTO> listId(Long id) {
+		Optional<BlackHole> listId = blackHoleRepositpry.findById(id);
+		if(listId.isPresent()) {
+			return ResponseEntity.ok(mapper.map(listId.get(), BlackHoleDTO.class));
+		} else {
+			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+		}	
+	}
 	
 
 }
