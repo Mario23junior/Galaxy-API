@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import org.hibernate.validator.constraints.Length;
 
 @Entity
-public class blackHole {
+public class BlackHole {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -27,11 +27,11 @@ public class blackHole {
 	private double estimativaDistancia;
 	private String dimensoes;
 
-	public blackHole() {
+	public BlackHole() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public blackHole(Long id, String nome, String raioX, String raioXInfravermelho, String optico,
+	public BlackHole(Long id, String nome, String raioX, String raioXInfravermelho, String optico,
 			String opticoInfravermelho, @Length(max = 500) String descricao, double redshift, String constelacao,
 			String declinacao, String coordenadas, double estimativaDistancia, String dimensoes) {
 		super();

@@ -2,7 +2,7 @@ package com.api.galaxy.dto;
 
 import org.hibernate.validator.constraints.Length;
 
-public class blackHoleDTO {
+public class BlackHoleDTO {
 
 	private Long id;
 	private String nome;
@@ -19,11 +19,11 @@ public class blackHoleDTO {
 	private double estimativaDistancia;
 	private String dimensoes;
 
-	public blackHoleDTO() {
+	public BlackHoleDTO() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public blackHoleDTO(Long id, String nome, String raioX, String raioXInfravermelho, String optico,
+	public BlackHoleDTO(Long id, String nome, String raioX, String raioXInfravermelho, String optico,
 			String opticoInfravermelho, @Length(max = 500) String descricao, double redshift, String constelacao,
 			String declinacao, String coordenadas, double estimativaDistancia, String dimensoes) {
 		super();
