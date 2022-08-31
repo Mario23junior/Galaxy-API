@@ -12,7 +12,7 @@ import com.api.galaxy.dto.BlackHoleDTO;
 import com.api.galaxy.service.BlackHoleService;
 
 @RestController
-@RequestMapping("/project/api/blackHoles/")
+@RequestMapping("/project/api/blackHoles")
 public class ControllerBlackHole {
    
 	private BlackHoleService service;
@@ -21,7 +21,7 @@ public class ControllerBlackHole {
 		this.service = service;
  	}
 	
-	@GetMapping
+	@GetMapping("/{id}")
 	public ResponseEntity<BlackHoleDTO> listId(@PathVariable Long id) {
 		return service.listId(id);
 		
