@@ -11,18 +11,18 @@ import com.api.galaxy.cargaBase.cargaService;
 @Configuration
 @Profile("dev")
 public class cargaConfig {
-  
+
 	@Autowired
 	private cargaService powerDataBase;
-	
+
 	@Autowired
 	private cargaBlackHoleData cargaBlackHole;
-	
+
 	@Bean
 	public void cargaBaseData() {
 		this.powerDataBase.powerDataBase();
 	}
-	
+
 	@Bean
 	public void powerDataBlackHoleCarga() {
 		this.cargaBlackHole.powerDataBlackHoleCarga();
