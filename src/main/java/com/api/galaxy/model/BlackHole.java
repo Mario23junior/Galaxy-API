@@ -18,13 +18,13 @@ public class BlackHole {
 	private String raioXInfravermelho;
 	private String optico;
 	private String opticoInfravermelho;
-	@Length(max = 500)
+	@Length(max = 2000)
 	private String descricao;
 	private double redshift;
 	private String constelacao;
 	private String declinacao;
 	private String coordenadas;
-	private double estimativaDistancia;
+	private String estimativaDistancia;
 	private String dimensoes;
 
 	public BlackHole() {
@@ -32,8 +32,8 @@ public class BlackHole {
 	}
 
 	public BlackHole(Long id, String nome, String raioX, String raioXInfravermelho, String optico,
-			String opticoInfravermelho, @Length(max = 500) String descricao, double redshift, String constelacao,
-			String declinacao, String coordenadas, double estimativaDistancia, String dimensoes) {
+			String opticoInfravermelho, @Length(max = 2000) String descricao, double redshift, String constelacao,
+			String declinacao, String coordenadas, String estimativaDistancia, String dimensoes) {
 		super();
 		this.id = id;
 		this.nome = nome;
@@ -138,11 +138,11 @@ public class BlackHole {
 		this.coordenadas = coordenadas;
 	}
 
-	public double getEstimativaDistancia() {
+	public String getEstimativaDistancia() {
 		return estimativaDistancia;
 	}
 
-	public void setEstimativaDistancia(double estimativaDistancia) {
+	public void setEstimativaDistancia(String estimativaDistancia) {
 		this.estimativaDistancia = estimativaDistancia;
 	}
 
@@ -153,6 +153,5 @@ public class BlackHole {
 	public void setDimensoes(String dimensoes) {
 		this.dimensoes = dimensoes;
 	}
-	
-	
+
 }

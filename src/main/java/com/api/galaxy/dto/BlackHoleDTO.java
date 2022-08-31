@@ -16,7 +16,7 @@ public class BlackHoleDTO {
 	private String constelacao;
 	private String declinacao;
 	private String coordenadas;
-	private double estimativaDistancia;
+	private String estimativaDistancia;
 	private String dimensoes;
 
 	public BlackHoleDTO() {
@@ -25,7 +25,7 @@ public class BlackHoleDTO {
 
 	public BlackHoleDTO(Long id, String nome, String raioX, String raioXInfravermelho, String optico,
 			String opticoInfravermelho, @Length(max = 500) String descricao, double redshift, String constelacao,
-			String declinacao, String coordenadas, double estimativaDistancia, String dimensoes) {
+			String declinacao, String coordenadas, String estimativaDistancia, String dimensoes) {
 		super();
 		this.id = id;
 		this.nome = nome;
@@ -130,11 +130,11 @@ public class BlackHoleDTO {
 		this.coordenadas = coordenadas;
 	}
 
-	public double getEstimativaDistancia() {
+	public String getEstimativaDistancia() {
 		return estimativaDistancia;
 	}
 
-	public void setEstimativaDistancia(double estimativaDistancia) {
+	public void setEstimativaDistancia(String estimativaDistancia) {
 		this.estimativaDistancia = estimativaDistancia;
 	}
 
