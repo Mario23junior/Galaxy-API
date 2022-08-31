@@ -122,48 +122,48 @@ public class cargaBlackHoleData {
 		b7.setCoordenadas("-15° 20´ 14,28");
 		b7.setEstimativaDistancia("12.7 Bilhões");
 		b7.setDimensoes("__");
-//		
-//		BlackHole b8 = new BlackHole();
-//		b8.setNome("");
-//		b8.setRaioX("");
-//		b8.setOptico("");
-//		b8.setRaioXInfravermelho("");
-//		b8.setOpticoInfravermelho("");
-//		b8.setDescricao("");
-//		b8.setRedshift(0.001461);
-//		b8.setConstelacao("");
-//		b8.setDeclinacao("");
-//		b8.setCoordenadas("");
-//		b8.setEstimativaDistancia(0.0);
-//		b8.setDimensoes("");
-//		
-//		BlackHole b9 = new BlackHole();
-//		b9.setNome("");
-//		b9.setRaioX("");
-//		b9.setOptico("");
-//		b9.setRaioXInfravermelho("");
-//		b9.setOpticoInfravermelho("");
-//		b9.setDescricao("");
-//		b9.setRedshift(0.001461);
-//		b9.setConstelacao("");
-//		b9.setDeclinacao("");
-//		b9.setCoordenadas("");
-//		b9.setEstimativaDistancia(0.0);
-//		b9.setDimensoes("");
-//		
-//		BlackHole b10 = new BlackHole();
-//		b10.setNome("");
-//		b10.setRaioX("");
-//		b10.setOptico("");
-//		b10.setRaioXInfravermelho("");
-//		b10.setOpticoInfravermelho("");
-//		b10.setDescricao("");
-//		b10.setRedshift(0.001461);
-//		b10.setConstelacao("");
-//		b10.setDeclinacao("");
-//		b10.setCoordenadas("");
-//		b10.setEstimativaDistancia(0.0);
-//		b10.setDimensoes(""); 
+		
+		BlackHole b8 = new BlackHole();
+		b8.setNome("Sgr A,L");
+		b8.setRaioX("https://chandra.harvard.edu/photo/2021/sgrae/sgrae.jpg");
+		b8.setOptico("https://chandra.harvard.edu/photo/2021/sgrae/sgrae_xray.jpg");
+		b8.setRaioXInfravermelho("https://chandra.harvard.edu/photo/2021/sgrae/sgrae_radio.jpg");
+		b8.setOpticoInfravermelho("https://chandra.harvard.edu/photo/2021/sgrae/sgrae_full_xray.jpg");
+		b8.setDescricao("Essas imagens mostrando dados de raios-X do Chandra e emissão de rádio do Very Large Array contém a primeira evidência de um tipo raro de supernova na Via Láctea. Ao analisar mais de 35 dias de observações do Chandra, os pesquisadores encontraram um padrão incomum de elementos como ferro e níquel nos detritos estelares.");
+		b8.setRedshift(0.00031);
+		b8.setConstelacao("Sagitário");
+		b8.setDeclinacao("−29 ° 04 ′ 36,43 ″");
+		b8.setCoordenadas("17h  45m  41,131s");
+		b8.setEstimativaDistancia("25.600 Mil");
+		b8.setDimensoes("");
+		
+		BlackHole b9 = new BlackHole();
+		b9.setNome("J1027.0+1749");
+		b9.setRaioX("https://chandra.harvard.edu/photo/2021/dualagn/dualagn_j1027_comp.jpg");
+		b9.setOptico("https://chandra.harvard.edu/photo/2021/dualagn/dualagn_j1027_xray.jpg");
+		b9.setRaioXInfravermelho("https://chandra.harvard.edu/photo/2021/dualagn/dualagn_j1027_optical.jpg");
+		b9.setOpticoInfravermelho("https://chandra.harvard.edu/photo/2021/dualagn/dualagn_j1027_optical.jpg");
+		b9.setDescricao("Esses quatro objetos vêm de um estudo de sete fusões de galáxias triplas. Usando o Chandra e outros telescópios, os astrônomos determinaram o que aconteceu com os buracos negros supermassivos nos centros das galáxias após a colisão de três galáxias.");
+		b9.setRedshift(0.0);
+		b9.setConstelacao("Leo");
+		b9.setDeclinacao("21° 53' 08.08");
+		b9.setCoordenadas("10h 27m 00.5s");
+		b9.setEstimativaDistancia("890 milhões ");
+		b9.setDimensoes("__");
+		
+		BlackHole b10 = new BlackHole();
+		b10.setNome("Abell 2261");
+		b10.setRaioX("https://chandra.harvard.edu/photo/2020/a2261/a2261.jpg");
+		b10.setOptico("https://chandra.harvard.edu/photo/2020/a2261/a2261_xray.jpg");
+		b10.setRaioXInfravermelho("https://chandra.harvard.edu/photo/2020/a2261/a2261_optical_ir.jpg");
+		b10.setOpticoInfravermelho("https://chandra.harvard.edu/photo/2020/a2261/a2261_opt_radio_closeup.jpg");
+		b10.setDescricao("Essas imagens de Abell 2261 contêm dados de raios-X do Chandra mostrando gás quente que permeia o aglomerado, bem como dados ópticos do Hubble e do Telescópio Subaru que mostram galáxias no aglomerado e no fundo. Os astrônomos usaram esses telescópios para procurar na galáxia no centro da imagem evidências de um buraco negro, pesando entre 3 e 100 bilhões de vezes o Sol, que se espera que esteja lá. ");
+		b10.setRedshift(0.2233);
+		b10.setConstelacao("Hercules");
+		b10.setDeclinacao("17h 22m 28.3s");
+		b10.setCoordenadas("+32° 09´ 13");
+		b10.setEstimativaDistancia("2.7 bilhões");
+		b10.setDimensoes(""); 
 //		
 //		BlackHole b11 = new BlackHole();
 //		b11.setNome("");
@@ -306,8 +306,28 @@ public class cargaBlackHoleData {
 //		 b20.setDimensoes("");
 		
 		BlackHoleDTO b1Dto = mapper.map(b1, BlackHoleDTO.class);
+		BlackHoleDTO b2Dto = mapper.map(b2, BlackHoleDTO.class);
+		BlackHoleDTO b3Dto = mapper.map(b3, BlackHoleDTO.class);
+		BlackHoleDTO b4Dto = mapper.map(b4, BlackHoleDTO.class);
+		BlackHoleDTO b5Dto = mapper.map(b5, BlackHoleDTO.class);
+		BlackHoleDTO b6Dto = mapper.map(b6, BlackHoleDTO.class);
+		BlackHoleDTO b7Dto = mapper.map(b7, BlackHoleDTO.class);
+		BlackHoleDTO b8Dto = mapper.map(b8, BlackHoleDTO.class);
+		BlackHoleDTO b9Dto = mapper.map(b9, BlackHoleDTO.class);
+		BlackHoleDTO b10Dto = mapper.map(b10, BlackHoleDTO.class);
+
 
 		blackHoleRepository.saveAll(Arrays.asList(mapper.map(b1Dto, BlackHole.class)));
+		blackHoleRepository.saveAll(Arrays.asList(mapper.map(b2Dto, BlackHole.class)));
+		blackHoleRepository.saveAll(Arrays.asList(mapper.map(b3Dto, BlackHole.class)));
+		blackHoleRepository.saveAll(Arrays.asList(mapper.map(b4Dto, BlackHole.class)));
+		blackHoleRepository.saveAll(Arrays.asList(mapper.map(b5Dto, BlackHole.class)));
+		blackHoleRepository.saveAll(Arrays.asList(mapper.map(b6Dto, BlackHole.class)));
+		blackHoleRepository.saveAll(Arrays.asList(mapper.map(b7Dto, BlackHole.class)));
+		blackHoleRepository.saveAll(Arrays.asList(mapper.map(b8Dto, BlackHole.class)));
+		blackHoleRepository.saveAll(Arrays.asList(mapper.map(b9Dto, BlackHole.class)));
+		blackHoleRepository.saveAll(Arrays.asList(mapper.map(b10Dto, BlackHole.class)));
+
 	}
 
 }
