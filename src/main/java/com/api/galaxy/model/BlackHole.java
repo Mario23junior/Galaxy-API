@@ -7,7 +7,10 @@ import javax.persistence.Id;
 
 import org.hibernate.validator.constraints.Length;
 
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+
 @Entity
+@JsonPropertyOrder({ "id", "nome", "optico", "raioXInfravermelho", "opticoInfravermelho" })
 public class BlackHole {
 
 	@Id

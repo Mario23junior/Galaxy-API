@@ -2,6 +2,9 @@ package com.api.galaxy.dto;
 
 import org.hibernate.validator.constraints.Length;
 
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+
+@JsonPropertyOrder({ "id", "nome", "optico", "raioXInfravermelho", "opticoInfravermelho" })
 public class BlackHoleDTO {
 
 	private Long id;

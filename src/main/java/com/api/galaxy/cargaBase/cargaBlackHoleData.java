@@ -35,7 +35,7 @@ public class cargaBlackHoleData {
 		b1.setConstelacao("Virgo");
 		b1.setDeclinacao(" +09° 25´ 14.32");
 		b1.setCoordenadas("RA 12h 27m 11.6s");
-		b1.setEstimativaDistancia("53.6 Milhãoes");
+		b1.setEstimativaDistancia("53.6 Milhões");
 		b1.setDimensoes("3,5' × 1,7'+");
 		
 		BlackHole b2 = new BlackHole();
@@ -107,7 +107,7 @@ public class cargaBlackHoleData {
 		b6.setDescricao("RBS 797 is a galaxy cluster located about 3.9 billion light years from Earth. Four enormous cavities, or bubbles, have been found at the center of the RBS 797 galaxy cluster using Chandra. Hot gas that envelopes the individual galaxies is invisible in optical light, but it is detected in X-rays by Chandra. ");
 		b6.setRedshift(0.00354);
 		b6.setConstelacao("Draco");
-		b6.setDeclinacao("3.9 bilhões");
+		b6.setDeclinacao("3.9 Milhões");
 		b6.setCoordenadas("47 12.9 +76 23 13");
 		b6.setEstimativaDistancia("3.9 Bilhões");
 		b6.setDimensoes("__");
@@ -139,7 +139,7 @@ public class cargaBlackHoleData {
 		b8.setConstelacao("Sagitário");
 		b8.setDeclinacao("−29 ° 04 ′ 36,43 ″");
 		b8.setCoordenadas("17h  45m  41,131s");
-		b8.setEstimativaDistancia("25.600 Mil");
+		b8.setEstimativaDistancia("25.600 Milhões");
 		b8.setDimensoes("");
 		
 		BlackHole b9 = new BlackHole();
@@ -154,7 +154,7 @@ public class cargaBlackHoleData {
 		b9.setConstelacao("Leo");
 		b9.setDeclinacao("21° 53' 08.08");
 		b9.setCoordenadas("10h 27m 00.5s");
-		b9.setEstimativaDistancia("890 milhões ");
+		b9.setEstimativaDistancia("890 Milhões ");
 		b9.setDimensoes("__");
 		
 		BlackHole b10 = new BlackHole();
