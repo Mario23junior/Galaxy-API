@@ -25,10 +25,11 @@ public class cargaBlackHoleData {
 
 		BlackHole b1 = new BlackHole();
 		b1.setNome("NGC 4424");
-		b1.setRaioX("https://chandra.harvard.edu/photo/2022/ngc4424/ngc4424_xray.jpg");
 		b1.setOptico("https://chandra.harvard.edu/photo/2022/ngc4424/ngc4424_optical.jpg");
+		b1.setRaioX("https://chandra.harvard.edu/photo/2022/ngc4424/ngc4424_xray.jpg");
 		b1.setRaioXInfravermelho("https://chandra.harvard.edu/photo/2022/ngc4424/ngc4424_inset.jpg");
 		b1.setOpticoInfravermelho("https://www.researchgate.net/profile/Eduardo-Hardy/publication/40883461/figure/fig2/AS:340353707200513@1458158055117/Composite-BVR-WIYN-image-of-NGC-4424-The-galaxy-present-a-disturbed-stellar-disk-with.png");
+		
 		b1.setDescricao("A imagem principal tem cerca de 2,9 min de arco (45.100 anos-luz) de diâmetro. A imagem inserida tem cerca de 4,5 segundos de arco (1.160 anos-luz) de diâmetro.");
 		b1.setRedshift(0.001461);
 		b1.setConstelacao("Virgo");
@@ -39,10 +40,11 @@ public class cargaBlackHoleData {
 		
 		BlackHole b2 = new BlackHole();
 		b2.setNome("H1821+243");
-		b2.setRaioX("https://chandra.harvard.edu/photo/2022/h1821/h1821_w22.jpg");
-		b2.setOptico("https://chandra.harvard.edu/photo/2022/h1821/h1821_w33.jpg");
-		b2.setRaioXInfravermelho("https://chandra.harvard.edu/photo/2022/h1821/h1821_w55.jpg");
-		b2.setOpticoInfravermelho("https://chandra.harvard.edu/photo/2022/h1821/h1821.jpg");
+		b2.setOptico("https://chandra.harvard.edu/photo/2022/h1821/h1821_optical.jpg");
+		b2.setRaioX("https://chandra.harvard.edu/photo/2022/h1821/h1821.jpg");
+		b2.setRaioXInfravermelho("https://chandra.harvard.edu/photo/2022/h1821/h1821_xray.jpg");
+		b2.setOpticoInfravermelho("https://chandra.harvard.edu/photo/2022/h1821/h1821_radio.jpg");
+		
 		b2.setDescricao("A imagem tem cerca de 6,4 min de arco (5,6 milhões de anos-luz) de diâmetro.");
 		b2.setRedshift(0.2970);
 		b2.setConstelacao("Draco");
@@ -55,8 +57,8 @@ public class cargaBlackHoleData {
 		BlackHole b3 = new BlackHole();
 		b3.setNome("Sagittarius A");
 		b3.setOptico("https://chandra.harvard.edu/photo/2022/sgra/sgra_xray_ir.jpg");
-		b3.setRaioX("https://chandra.harvard.edu/photo/2022/sgra/sgra_xray.jpg");
-		b3.setRaioXInfravermelho("https://chandra.harvard.edu/photo/2022/sgra/sgra_swift.jpg");
+		b3.setRaioX("https://chandra.harvard.edu/photo/2022/sgra/sgra_ir.jpg");
+		b3.setRaioXInfravermelho("https://chandra.harvard.edu/photo/2022/sgra/sgra_xray.jpg");
 		b3.setOpticoInfravermelho("https://chandra.harvard.edu/photo/2022/sgra/sgra_radio.jpg");
 		b3.setDescricao("A imagem principal tem cerca de 55 segundos de arco (7,0 anos-luz) de diâmetro; A imagem inserida tem cerca de 1,4 x 10 -4 segundos de arco (10 minutos-luz) de diâmetro.");
 		b3.setRedshift(0.001461);
@@ -72,6 +74,7 @@ public class cargaBlackHoleData {
 		b4.setRaioX("https://chandra.harvard.edu/photo/2022/imbhs/imbhs_ngc3344.jpg");
 		b4.setRaioXInfravermelho("https://chandra.harvard.edu/photo/2022/imbhs/imbhs_ngc1566.jpg");
 		b4.setOpticoInfravermelho("https://chandra.harvard.edu/photo/2022/imbhs/imbhs_ngc6503_xray.jpg");
+		
 		b4.setDescricao("De acordo com um estudo publicado em 2009 e baseado na velocidade interna da galáxia medida pelo Telescópio Espacial Hubble , a massa do buraco negro supermassivo no centro de NGC 1358 seria entre 120 e 530 milhões . M _ {\\ odot}");
 		b4.setRedshift(0.013436);
 		b4.setConstelacao("Eridan");
@@ -115,6 +118,7 @@ public class cargaBlackHoleData {
 		b7.setOptico("https://chandra.harvard.edu/photo/2021/jet/jet_illus.jpg");
 		b7.setRaioXInfravermelho("https://chandra.harvard.edu/photo/2021/jet/jet_xray_crop.jpg");
 		b7.setOpticoInfravermelho("https://www.researchgate.net/profile/Roberto-Decarli/publication/351353244/figure/fig1/AS:1020267979624449@1620262250732/Multiwavelength-observations-of-the-area-around-PJ352-15-showing-the-broad-X-rays.png");
+		
 		b7.setDescricao("Os dados do Chandra podem ter revelado o buraco negro supermassivo mais distante conhecido com um jato de raios-X. A fonte deste jato é um quasar (um buraco negro que cresce rapidamente) no centro de uma jovem galáxia a cerca de 12,7 bilhões de anos-luz da Terra. ");
 		b7.setRedshift(0.05831);
 		b7.setConstelacao("Aquarius");
@@ -129,6 +133,7 @@ public class cargaBlackHoleData {
 		b8.setOptico("https://chandra.harvard.edu/photo/2021/sgrae/sgrae_xray.jpg");
 		b8.setRaioXInfravermelho("https://chandra.harvard.edu/photo/2021/sgrae/sgrae_radio.jpg");
 		b8.setOpticoInfravermelho("https://chandra.harvard.edu/photo/2021/sgrae/sgrae_full_xray.jpg");
+		
 		b8.setDescricao("Essas imagens mostrando dados de raios-X do Chandra e emissão de rádio do Very Large Array contém a primeira evidência de um tipo raro de supernova na Via Láctea. Ao analisar mais de 35 dias de observações do Chandra, os pesquisadores encontraram um padrão incomum de elementos como ferro e níquel nos detritos estelares.");
 		b8.setRedshift(0.00031);
 		b8.setConstelacao("Sagitário");
@@ -143,6 +148,7 @@ public class cargaBlackHoleData {
 		b9.setOptico("https://chandra.harvard.edu/photo/2021/dualagn/dualagn_j1027_xray.jpg");
 		b9.setRaioXInfravermelho("https://chandra.harvard.edu/photo/2021/dualagn/dualagn_j1027_optical.jpg");
 		b9.setOpticoInfravermelho("https://chandra.harvard.edu/photo/2021/dualagn/dualagn_j1027_optical.jpg");
+		
 		b9.setDescricao("Esses quatro objetos vêm de um estudo de sete fusões de galáxias triplas. Usando o Chandra e outros telescópios, os astrônomos determinaram o que aconteceu com os buracos negros supermassivos nos centros das galáxias após a colisão de três galáxias.");
 		b9.setRedshift(0.0);
 		b9.setConstelacao("Leo");
@@ -157,6 +163,7 @@ public class cargaBlackHoleData {
 		b10.setOptico("https://chandra.harvard.edu/photo/2020/a2261/a2261_xray.jpg");
 		b10.setRaioXInfravermelho("https://chandra.harvard.edu/photo/2020/a2261/a2261_optical_ir.jpg");
 		b10.setOpticoInfravermelho("https://chandra.harvard.edu/photo/2020/a2261/a2261_opt_radio_closeup.jpg");
+		
 		b10.setDescricao("Essas imagens de Abell 2261 contêm dados de raios-X do Chandra mostrando gás quente que permeia o aglomerado, bem como dados ópticos do Hubble e do Telescópio Subaru que mostram galáxias no aglomerado e no fundo. Os astrônomos usaram esses telescópios para procurar na galáxia no centro da imagem evidências de um buraco negro, pesando entre 3 e 100 bilhões de vezes o Sol, que se espera que esteja lá. ");
 		b10.setRedshift(0.2233);
 		b10.setConstelacao("Hercules");
