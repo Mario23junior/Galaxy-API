@@ -1,10 +1,8 @@
 package com.api.galaxy.dto;
 
-import java.util.Date;
-
 public class DayPhotoNasa {
 
-	private Date date;
+	private String date;
 	private String explanation;
 	private String hdurl;
 	private String title;
@@ -14,11 +12,11 @@ public class DayPhotoNasa {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Date getDate() {
+	public String getDate() {
 		return date;
 	}
 
-	public void setDate(Date date) {
+	public void setDate(String date) {
 		this.date = date;
 	}
 

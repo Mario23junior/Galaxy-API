@@ -29,7 +29,6 @@ public class ServiceDayPhotoNasa {
 				.bodyToMono(DayPhotoNasa.class);
 		
 		DayPhotoNasa dayPhoto = bodyResponseData.block();
-		System.out.println(dayPhoto);
-		return dayPhoto;
+ 		return dayPhoto;
 	}
 }
