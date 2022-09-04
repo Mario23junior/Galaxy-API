@@ -6,5 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/project/api/photo")
 public class ConstrollerDayPhotoNasa {
-  
+   
+
 }
