@@ -3,13 +3,13 @@ package com.api.galaxy.dto;
 import java.util.Date;
 
 public class DayPhotoNasa {
-   
+
 	private Date date;
 	private String explanation;
-	private String hdUrl;
+	private String hdurl;
 	private String title;
 	private String url;
-	
+
 	public DayPhotoNasa() {
 		// TODO Auto-generated constructor stub
 	}
@@ -30,12 +30,12 @@ public class DayPhotoNasa {
 		this.explanation = explanation;
 	}
 
-	public String getHdUrl() {
-		return hdUrl;
+	public String getHdurl() {
+		return hdurl;
 	}
 
-	public void setHdUrl(String hdUrl) {
-		this.hdUrl = hdUrl;
+	public void setHdurl(String hdurl) {
+		this.hdurl = hdurl;
 	}
 
 	public String getTitle() {
@@ -53,6 +53,5 @@ public class DayPhotoNasa {
 	public void setUrl(String url) {
 		this.url = url;
 	}
-	
-	
+
 }
