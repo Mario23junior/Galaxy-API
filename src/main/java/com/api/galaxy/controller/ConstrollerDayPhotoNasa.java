@@ -11,16 +11,20 @@ import com.api.galaxy.service.ServiceDayPhotoNasa;
 @RestController
 @RequestMapping("/project/api/photo/")
 public class ConstrollerDayPhotoNasa {
-    	
+
 	private ServiceDayPhotoNasa service;
-	
+
 	public ConstrollerDayPhotoNasa(ServiceDayPhotoNasa service) {
 		this.service = service;
 	}
-	
+
 	@GetMapping("{date}")
-	public DayPhotoNasa listPhotoDayAniver(@PathVariable String date){
+	public DayPhotoNasa listPhotoDayAniver(@PathVariable String date) {
 		return service.listDayData(date);
-		
-	}	
+	}
+
+	@GetMapping
+	public DayPhotoNasa listAllPhotoDay() {
+		return service.listDayAllData();
+	}
 }

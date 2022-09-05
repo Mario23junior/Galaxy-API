@@ -31,4 +31,17 @@ public class ServiceDayPhotoNasa {
 		DayPhotoNasa dayPhoto = bodyResponseData.block();
  		return dayPhoto;
 	}
+	
+	public DayPhotoNasa listDayAllData() {		
+		String urlApi = url + key;
+		
+		Mono<DayPhotoNasa> bodyResponseData = this.webClient
+				.method(HttpMethod.GET)
+				.uri(urlApi)
+				.retrieve()
+				.bodyToMono(DayPhotoNasa.class);
+		
+		DayPhotoNasa dayPhoto = bodyResponseData.block();
+ 		return dayPhoto;
+	}
 }
