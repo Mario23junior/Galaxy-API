@@ -1,7 +1,10 @@
 package com.api.galaxy.dto;
 
-public class DayPhotoNasa {
+import java.io.Serializable;
 
+public class DayPhotoNasa implements Serializable {
+
+	private static final long serialVersionUID = 1L;
 	private String date;
 	private String explanation;
 	private String hdurl;

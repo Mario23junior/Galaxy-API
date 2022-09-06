@@ -1,5 +1,7 @@
 package com.api.galaxy.controller;
 
+import java.util.List;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,7 +26,7 @@ public class ConstrollerDayPhotoNasa {
 	}
 
 	@GetMapping
-	public DayPhotoNasa listAllPhotoDay() {
+	public List<DayPhotoNasa> listAllPhotoDay() {
 		return service.listDayAllData();
 	}
 }

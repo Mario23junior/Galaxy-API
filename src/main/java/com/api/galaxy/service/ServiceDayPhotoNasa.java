@@ -1,5 +1,9 @@
 package com.api.galaxy.service;
 
+import java.util.Arrays;
+import java.util.List;
+
+import org.modelmapper.ModelMapper;
 import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -10,13 +14,16 @@ import reactor.core.publisher.Mono;
 
 @Service
 public class ServiceDayPhotoNasa {
-
+   
+	
+	private ModelMapper mapper;
 	private WebClient webClient;
 	private String url = "https://api.nasa.gov/planetary/apod?api_key=";
 	private String key = "O9GhnLpLgZPJ6ZvdMEaDtqXZUmnbdVC1tlf9SG55&";
 
-	public ServiceDayPhotoNasa(WebClient webClient) {
+	public ServiceDayPhotoNasa(WebClient webClient,ModelMapper mapper) {
 		this.webClient = webClient;
+		this.mapper = mapper;
 	}
 	 
 	public DayPhotoNasa listDayData(String date) {
@@ -32,7 +39,7 @@ public class ServiceDayPhotoNasa {
  		return dayPhoto;
 	}
 	
-	public DayPhotoNasa listDayAllData() {		
+	public List<DayPhotoNasa> listDayAllData() {		
 		String urlApi = url + key;
 		
 		Mono<DayPhotoNasa> bodyResponseData = this.webClient
@@ -42,6 +49,8 @@ public class ServiceDayPhotoNasa {
 				.bodyToMono(DayPhotoNasa.class);
 		
 		DayPhotoNasa dayPhoto = bodyResponseData.block();
- 		return dayPhoto;
+		
+		List<DayPhotoNasa> dados = Arrays.asList(mapper.map(dayPhoto, DayPhotoNasa.class));
+ 		return dados;
 	}
 }
