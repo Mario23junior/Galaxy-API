@@ -26,8 +26,8 @@ public class ServiceDayPhotoNasa {
 		this.mapper = mapper;
 	}
 	 
-	public DayPhotoNasa listDayData(String date) {
-		String urlApi = url + key + date;
+	public List<DayPhotoNasa> listDayData(String date) {
+		String urlApi = url + key +date;
 		
 		Mono<DayPhotoNasa> bodyResponseData = this.webClient
 				.method(HttpMethod.GET)
@@ -35,8 +35,10 @@ public class ServiceDayPhotoNasa {
 				.retrieve()
 				.bodyToMono(DayPhotoNasa.class);
 		
-		DayPhotoNasa dayPhoto = bodyResponseData.block();
- 		return dayPhoto;
+		DayPhotoNasa dayPhotoRequest = bodyResponseData.block();
+		List<DayPhotoNasa> dateReturValue = Arrays.asList(mapper.map(dayPhotoRequest, DayPhotoNasa.class));
+
+ 		return dateReturValue;
 	}
 	
 	public List<DayPhotoNasa> listDayAllData() {		

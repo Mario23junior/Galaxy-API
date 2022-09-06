@@ -21,7 +21,7 @@ public class ConstrollerDayPhotoNasa {
 	}
 
 	@GetMapping("{date}")
-	public DayPhotoNasa listPhotoDayAniver(@PathVariable String date) {
+	public List<DayPhotoNasa> listPhotoDayAniver(@PathVariable String date) {
 		return service.listDayData(date);
 	}
 
