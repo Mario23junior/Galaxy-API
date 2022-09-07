@@ -26,8 +26,8 @@ public class ServiceDayPhotoNasa {
 		this.mapper = mapper;
 	}
 	 
-	public List<DayPhotoNasa> listDayData(String date) {
-		String urlApi = url + key +date;
+	public List<DayPhotoNasa> listDayData(String date) {	
+		String urlApi = url + key + date;
 		
 		Mono<DayPhotoNasa> bodyResponseData = this.webClient
 				.method(HttpMethod.GET)
