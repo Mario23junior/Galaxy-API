@@ -17,7 +17,7 @@ public class configSwagger {
    
 	private static final String BASE_PACKAGE = "com.api.galaxy";
 	private static final String TITLE_API = "Galaxy API";
-	private static final String DESCRICAO_API = "api de listagem de informações sobre galaxias encontradas";
+	private static final String DESCRICAO_API = "api de listagem de dados de galaxias e buracos negros conhecidos";
 	private static final String NAME_AUTHOR = "Mário Junior";
 	private static final String VERSION_API = "1.0.0";
 	private static final String ENDERECO_GITHUB = "https://github.com/Mario23junior/Galaxy-API";
