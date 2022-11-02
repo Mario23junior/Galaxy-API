@@ -155,7 +155,7 @@ Você deve ver uma saída como a seguinte:
 ## 🔧 🔨 🛠  Construído com ⛏ 🪚 🔩 ⚙️
 Mencione as ferramentas que você usou para criar seu projeto
 
-* [Java 17](http://www.dropwizard.io/1.0.2/docs/)
+* [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 * [Spring boot](https://spring.io/projects/spring-boot)
 * [H2](https://www.h2database.com/html/main.html)
 * [Eclipse](https://www.eclipse.org/downloads/)
