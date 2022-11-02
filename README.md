@@ -153,7 +153,6 @@ Você deve ver uma saída como a seguinte:
 2022-08-22 06:51:11.835  INFO 18184 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 ```
 ## 🔧 🔨 🛠  Construído com ⛏ 🪚 🔩 ⚙️
-Mencione as ferramentas que você usou para criar seu projeto
 
 * [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 * [Spring boot](https://spring.io/projects/spring-boot)
