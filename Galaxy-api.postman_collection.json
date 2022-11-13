@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "ae3f35bc-5cb5-460c-83a2-f3d39b496192",
+		"name": "Galaxy-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10455541"
+	},
+	"item": [
+		{
+			"name": "Listando buracos negros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/project/api/blackHoles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"project",
+						"api",
+						"blackHoles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listando galaxias",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/project/api/galaxy/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"project",
+						"api",
+						"galaxy",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Capturando retorno de dados da NASA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/project/api/photo/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"project",
+						"api",
+						"photo",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
