@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="logo.gif">
-    <img src="doc/messierlogo.jpg" alt="Logo" width="700" height="300" style="border-radius: 50%"/>
+    <img src="logo/logo.gif" alt="Logo" width="700" height="300" style="border-radius: 50%"/>
   </a>
 
   
